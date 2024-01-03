@@ -1,6 +1,3 @@
-PROJECT_NAME=aerostar
-PROJECT_CONTAINER_NAME_PREFIX=aerostar
-
 export COMPOSE_FILE=compose.yml
 
 .PHONY: up down stop prune ps shell logs tests
